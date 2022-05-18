@@ -1,0 +1,155 @@
+.navegation{
+    display: flex;
+    flex-direction: column;
+}
+.init{
+    display: flex;
+    height: 4rem;
+    justify-content: space-around;
+    align-items: center;
+    padding: .5rem 0;
+    background-color: aqua;
+}
+.init > img{
+    max-height: 6rem;
+}
+.bars{
+    font-size: 2rem;
+    margin: 0 0 0 1rem;
+}
+.bars2{
+    font-size: 2rem;
+    margin: 0 1rem 0 0;
+}
+.info{
+    position: relative;
+}
+.my-info{
+    position: absolute;
+    overflow: hidden;
+    top: 3rem;
+    right: 0;
+    background-color: white;
+    border: 1px solid aqua;
+    padding: 1rem;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: all .5s ease-in-out;
+    z-index: 20;
+}
+.hidden-personal{
+    height: 0;
+    padding: 0 1rem;
+}
+.personal{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.personal > div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.personal > div > p:first-of-type{
+    border-bottom: 2px solid aqua;
+    margin-bottom: .2rem;
+}
+.icon-personal{
+    font-size: 2rem;
+}
+.info-personal > p{
+    margin: 0;
+}
+
+.menu{
+    background-color: white;
+    position: absolute;
+    top: 80px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 1px solid black;
+    overflow: hidden;
+    height: 130px;
+    transition: all .5s ease-out;
+    border-left: none;
+    border-right: none;
+    z-index: 19;
+}
+.menu > a{
+    margin: .5rem  2rem;
+    padding-bottom: .2rem;
+    text-decoration: none;
+    font-weight: bold;
+    transition: all .2s ease-in-out;
+    border-bottom: 1px solid aqua;
+}
+.hidden{
+    height: 0;
+}
+@media (min-width: 900px){
+    .menu{
+        height: auto;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        background-color: white;
+        border-left: none;
+        border-right: none;
+        position: initial;
+        top: initial;
+    }
+    .menu > a:hover{
+        color: aqua;
+    }
+    .hidden{
+        height: auto;
+    }
+
+    .bars, .bars2{
+        display: none;
+    }
+    .info{
+        position: initial;
+    }
+    .my-info{
+        position: inherit;
+        overflow: hidden;
+        top: auto;
+        right: auto;
+        padding: .5rem;
+        width: auto;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        border-radius: 2rem;
+    }
+    .hidden-personal{
+        height: auto;
+        padding: auto;
+    }
+    .personal{
+        margin: 0 1rem;
+        border: 1px solid aqua;
+        padding: .5rem;
+    }
+    .init{
+        height: 6rem;
+    }
+    .init > img{
+        max-height: 8rem;
+    }
+    .info-personal{
+        font-size: .8rem;
+    }
+    .icon-personal{
+        font-size: 1.7rem;
+        margin-right: .8rem;
+    }
+}

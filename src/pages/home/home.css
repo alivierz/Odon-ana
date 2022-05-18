@@ -1,0 +1,31 @@
+.home{
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    padding-top: 1rem;
+}
+.title{
+    text-align: center;
+}
+.title > h1{
+    margin: 0;
+}
+.title > p{
+    margin: 0;
+    margin-bottom: 1rem;
+}
+@media (min-width: 900px){
+    .home{
+        grid-template-columns: 30% 60%;
+    }
+    .title{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        padding-right: 1rem;
+    }
+    .title > h1{
+        text-align: justify;
+    }
+}

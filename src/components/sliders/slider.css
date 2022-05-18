@@ -1,0 +1,16 @@
+.item-s{
+    border: 1px solid aqua;
+}
+.img{
+    height: 300px;
+}
+@media (min-width: 600px){
+    .img{
+        height: 350px;
+    }
+}
+@media (min-width: 900px){
+    .img{
+        height: 500px;
+    }
+}
