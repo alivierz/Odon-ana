@@ -1,0 +1,114 @@
+.galeria{
+    display: grid;
+    grid-template-columns: 100%;
+    margin-top: 1rem;
+    margin-bottom: 12rem;
+}
+
+.slider-videos{
+    max-width: 100%;
+    padding-bottom: 2rem;
+}
+@media (min-width: 1050px){
+    .galeria{
+        grid-template-columns: repeat(3, 30%);
+        justify-content: center;
+        margin-bottom: 9rem;
+    }
+    .slider-videos{
+        padding-bottom: 0;
+        padding-top: 2rem;
+    }
+}
+.arrow-left{
+    position: absolute;
+    z-index: 100;
+    height: 100%;
+    width: 10%;
+    left: 1rem;
+}
+.arrow-r{
+    position: absolute;
+    z-index: 100;
+    top: 0;
+    height: 100%;
+    width: 10%;
+    right: 1rem;
+}
+.titulo-video{
+    text-align: center;
+    color: #2F2F2F;
+    margin: 1rem 0;
+}
+.video-conatiner-slide{
+    margin-top: 1rem;
+    border: 1px solid #23BC6C;
+}
+.tiempo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.imagen-tiempo > img{
+    height: 350px;
+    border-radius: 2rem;
+}
+.buttons{
+    margin-top: 1rem;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+.buttons > button{
+    border: none;
+    width: 30%;
+    padding: .5rem 1rem;
+    color: #2F2F2F;
+    background-color: #5688C7;
+    border-radius: 2rem;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+.item {
+    height: 350px;
+    margin: 0 auto;
+}
+@media (min-width: 900px){
+    .item{
+        height: 500px;
+    }
+}
+.slider-container{
+    overflow: hidden;
+    width: 350px;
+    margin: 0 auto;
+    border: 1px solid #5688C7;
+}
+.slider-m{
+    display: flex;
+    width: 350px;
+}
+.item-m{
+    min-width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.item-m > img{
+    pointer-events: none;
+
+}
+.titulo-servicio{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 1rem;
+}
+.titulo-servicio > h3{
+    margin-bottom: .2rem;
+}
+.iconarrow{
+    color: #23BC6C;
+    font-size: 2rem;
+}

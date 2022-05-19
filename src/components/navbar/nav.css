@@ -8,7 +8,7 @@
     justify-content: space-around;
     align-items: center;
     padding: .5rem 0;
-    background-color: aqua;
+    background-color: #5688C7;
 }
 .init > img{
     max-height: 6rem;
@@ -16,10 +16,12 @@
 .bars{
     font-size: 2rem;
     margin: 0 0 0 1rem;
+    color: #2F2F2F;
 }
 .bars2{
     font-size: 2rem;
     margin: 0 1rem 0 0;
+    color: #2F2F2F;
 }
 .info{
     position: relative;
@@ -30,23 +32,24 @@
     top: 3rem;
     right: 0;
     background-color: white;
-    border: 1px solid aqua;
+    border: 1px solid #5688C7;
     padding: 1rem;
-    width: 200px;
+    width: 280px;
     height: 200px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     transition: all .5s ease-in-out;
     z-index: 20;
+    color: #23BC6C;
 }
 .hidden-personal{
     height: 0;
     padding: 0 1rem;
 }
 .personal{
-    display: flex;
-    justify-content: space-around;
+    display: grid;
+    grid-template-columns: 30% 70%;
     align-items: center;
 }
 .personal > div{
@@ -55,11 +58,16 @@
     justify-content: space-between;
 }
 .personal > div > p:first-of-type{
-    border-bottom: 2px solid aqua;
+    border-bottom: 2px solid #5688C7;
     margin-bottom: .2rem;
+}
+.personal > div > p{
+    color: #2F2F2F;
+    font-size: .9rem;
 }
 .icon-personal{
     font-size: 2rem;
+    margin: 0 auto;
 }
 .info-personal > p{
     margin: 0;
@@ -82,12 +90,13 @@
     z-index: 19;
 }
 .menu > a{
+    color: black;
     margin: .5rem  2rem;
     padding-bottom: .2rem;
     text-decoration: none;
     font-weight: bold;
     transition: all .2s ease-in-out;
-    border-bottom: 1px solid aqua;
+    border-bottom: 1px solid #5688C7;
 }
 .hidden{
     height: 0;
@@ -105,7 +114,7 @@
         top: initial;
     }
     .menu > a:hover{
-        color: aqua;
+        color: #5688C7;
     }
     .hidden{
         height: auto;
@@ -136,7 +145,6 @@
     }
     .personal{
         margin: 0 1rem;
-        border: 1px solid aqua;
         padding: .5rem;
     }
     .init{

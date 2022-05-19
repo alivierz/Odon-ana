@@ -41,10 +41,10 @@ const Navbar = () =>{
                             <FontAwesomeIcon icon={faClock} className='icon-personal'/>
                             <div className="info-personal">
                                 <p>
-                                    isdksadsdhksahd
+                                    Horario de L / V
                                 </p>
                                 <p>
-                                    9479873182731297
+                                    5:00pm a 9:00pm
                                 </p>
                             </div>
                         </div>
@@ -52,10 +52,10 @@ const Navbar = () =>{
                             <FontAwesomeIcon icon={faMapMarked} className='icon-personal'/>
                             <div className="info-personal">
                                 <p>
-                                    isdksadsdhksahd
+                                    Avenida Texcoco num 304 C.A
                                 </p>
                                 <p>
-                                    9479873182731297
+                                    Tuxla Gutierrez Chiapas
                                 </p>
                             </div>
                         </div>
@@ -63,10 +63,10 @@ const Navbar = () =>{
                             <FontAwesomeIcon icon={faMobile} className='icon-personal'/>
                             <div className="info-personal">
                                 <p>
-                                    isdksadsdhksahd
+                                    Telefono - Whatsapp
                                 </p>
                                 <p>
-                                    9479873182731297
+                                    96112513458
                                 </p>
                             </div>
                         </div>
@@ -75,9 +75,9 @@ const Navbar = () =>{
             </div>
             <div className={`menu ${movil}`}>
                 <Link to='/'>Home</Link>
-                <a href=".">
+                <Link to='/galeria'>
                     galeria
-                </a>
+                </Link>
                 <a href=".">
                     sobre mi
                 </a>

@@ -4,7 +4,7 @@ import { Carousel } from 'react-responsive-carousel';
 
 const SlidePrincipal = () => { 
     return (
-        <div class="carousel-wrapper">
+        <div className="carousel-wrapper">
             <Carousel infiniteLoop autoPlay interval={3000} showArrows={false} showStatus={false} showIndicators={false} showThumbs={false} transitionTime={1000}>
                 <div className='item-s'>
                     <img src="https://i.imgur.com/iUTw9KK.png" alt=''  className='img'/>
