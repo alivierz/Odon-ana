@@ -20,25 +20,25 @@ const Video = () =>{
                     <FontAwesomeIcon onClick={clickHandler} icon={faArrowRight} className='arrow-r'/>
                 )
             }>
-                    <div>
+                    <div className="video-center">
                         <ReactPlayer
                             url={require('../../../myVideos/testimonial2.mp4')}
                             controls
-                            width={'auto'}
+                            width={210}
                         />
                     </div>
-                    <div>
+                    <div className="video-center">
                         <ReactPlayer
                         url={require('../../../myVideos/testimonial3.mp4')}
                         controls
-                        width={'auto'}
+                        width={210}
                         />
                     </div>
-                    <div>
+                    <div className="video-center">
                         <ReactPlayer
                         url={require('../../../myVideos/testimonial4.mp4')}
                         controls
-                        width={'auto'}
+                        width={210}
                         />
                     </div>
                     

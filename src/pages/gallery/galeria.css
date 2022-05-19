@@ -112,3 +112,7 @@
     color: #23BC6C;
     font-size: 2rem;
 }
+.video-center{
+    display: flex;
+    justify-content: center;
+}
