@@ -74,11 +74,11 @@ const Navbar = () =>{
                 </div>
             </div>
             <div className={`menu ${movil}`}>
-                <Link to='/'>Home</Link>
-                <Link to='/galeria'>
+                <Link to='/' onClick={() => setMovil('hidden')}>Home</Link>
+                <Link to='/galeria' onClick={() => setMovil('hidden')}>
                     galeria
                 </Link>
-                <Link to='/informacion'>
+                <Link to='/informacion' onClick={() => setMovil('hidden')}>
                     Sobre mi
                 </Link>
             </div>

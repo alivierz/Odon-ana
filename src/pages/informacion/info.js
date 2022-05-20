@@ -21,7 +21,6 @@ const Informacion = () =>{
             personal y profesional, con mis colegas y pacientes, procurando siempre un clima agradable y de armonía
             </p>
             <div className='articulos'>
-                <h2>Articulos destacados</h2>
                 <div className='articulos-destacados'>
                     <div>
                         <a href="https://repositorio.unam.mx/" target='_blank' rel='noreferrer'><FontAwesomeIcon icon={faGraduationCap}/></a>

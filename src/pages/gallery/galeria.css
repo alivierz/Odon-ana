@@ -26,6 +26,7 @@
     height: 100%;
     width: 10%;
     left: 1rem;
+    cursor: pointer;
 }
 .arrow-r{
     position: absolute;
@@ -34,6 +35,7 @@
     height: 100%;
     width: 10%;
     right: 1rem;
+    cursor: pointer;
 }
 .titulo-video{
     text-align: center;
@@ -93,10 +95,10 @@
     min-width: 100%;
     display: flex;
     justify-content: center;
+    cursor: grab;
 }
 .item-m > img{
     pointer-events: none;
-
 }
 .titulo-servicio{
     display: flex;
