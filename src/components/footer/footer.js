@@ -10,9 +10,9 @@ const Footer = () =>{
         <footer className="footer">
             <div className='footer-container'>
                 <div className='icons-footer'>
-                    <FontAwesomeIcon icon={faMap}/>
-                    <FontAwesomeIcon icon={faFacebook}/>
-                    <FontAwesomeIcon icon={faTwitter}/>
+                    <FontAwesomeIcon icon={faMap} className='icon-red'/>
+                    <FontAwesomeIcon icon={faFacebook} className='icon-red'/>
+                    <FontAwesomeIcon icon={faTwitter} className='icon-red'/>
                 </div>
                 <h3>Todos los derechos reservados</h3>
                 <p>

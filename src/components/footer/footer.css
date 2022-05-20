@@ -17,6 +17,8 @@
     width: 100%;
     font-size: 2rem;
     color: white;
+}
+.icon-red{
     cursor: pointer;
 }
 .footer-container > h3{

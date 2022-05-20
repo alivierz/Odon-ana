@@ -4,6 +4,7 @@ import Home from './pages/home/home';
 import Navbar from './components/navbar/navbar';
 import Footer from './components/footer/footer';
 import Galeria from './pages/gallery/galeria';
+import Informacion from './pages/informacion/info';
 
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
       <Routes>
         <Route path='/' element={<Home/>}/>
         <Route path='/galeria' element={<Galeria/>}/>
+        <Route path='/informacion' element={<Informacion/>}/>
       </Routes>
       <Footer/>
     </HashRouter>

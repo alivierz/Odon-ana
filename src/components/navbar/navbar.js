@@ -78,9 +78,9 @@ const Navbar = () =>{
                 <Link to='/galeria'>
                     galeria
                 </Link>
-                <a href=".">
-                    sobre mi
-                </a>
+                <Link to='/informacion'>
+                    Sobre mi
+                </Link>
             </div>
         </nav>
     )
